@@ -1,0 +1,40 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /*Ocean Sunset https://coolors.co/palette/001219-005f73-0a9396-94d2bd-e9d8a6-ee9b00-ca6702-bb3e03-ae2012-9b2226*/
+  --black: #001219;
+  --teal-dark: #005F73;
+  --teal: #0A9396;
+  --teal-light: #94D2BD;
+  --sand: #E9D8A6;
+  --orange-light: #EE9B00;
+  --orange: #CA6702;
+  --orange-dark: #BB3E03;
+  --red: #AE2012;
+  --dark-red: #9B2226;
+
+  /*Midnight Ocean Depths https://coolors.co/palette/11151c-151b25-19212e-212d40-273246-2c374b-313c51-343f54-364156-485265*/
+  --gray: #2C374B;
+  --gray-light: #364156;
+  --gray-lighter: #485265;
+  --gray-dark: #273246;
+  --gray-darker: #212D40;
+
+  --white: #FFFFFF;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}

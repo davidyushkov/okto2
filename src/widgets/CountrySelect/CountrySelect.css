@@ -1,0 +1,10 @@
+.country-select {
+    padding-bottom: 22px;
+    border-bottom: 1px solid var(--teal-dark);
+
+
+    .country-label {
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,10 @@
+.cities-select {
+    padding-top: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    .cities-label {
+        font-size: 18px;
+    }
+}

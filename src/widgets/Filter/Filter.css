@@ -1,0 +1,17 @@
+.filter {
+    margin-top: 12px;
+    align-self: start;
+    margin-left: 30px;
+    min-width: 240px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid var(--teal-dark);
+
+    .filters-label {
+        font-size: 18px;
+    }
+
+    .filter-label {
+        margin: 8px 0;
+
+    }
+}

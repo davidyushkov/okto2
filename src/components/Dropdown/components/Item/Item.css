@@ -1,0 +1,19 @@
+.dropdown-item {
+    padding: 4px 8px;
+    margin-top: 4px;
+    border-radius: 4px;
+    text-transform: capitalize;
+
+    &.active {
+        background-color: var(--teal-dark);
+        color: var(--white);
+        &:hover {
+            background-color: var(--teal-dark);
+        }
+    }
+
+    &:hover {
+        background-color: var(--teal);
+        color: var(--white);
+    }
+}
