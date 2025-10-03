@@ -5,4 +5,4 @@ export type City = {
 };
 
 export type Mode = '>' | '<';
-export type FilterApply = 'chart' | 'dropdown';
+export type FilterApply = 'chart' | 'dropdown' | 'all';

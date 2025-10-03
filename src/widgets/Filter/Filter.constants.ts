@@ -15,4 +15,5 @@ export const modeOptions = [
 export const applyOptions = [
     {label: 'Chart', value: 'chart'},
     {label: 'Dropdown', value: 'dropdown'},
+    {label: 'All', value: 'all'},
 ];

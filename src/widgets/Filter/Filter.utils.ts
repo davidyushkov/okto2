@@ -8,7 +8,7 @@ export const getLabelByValue = (value: any, options: ({label: string, value: any
 };
 
 export const filterCities = (cities: City[], options: FilterOptions, target: FilterApply) => {
-    if (!options.enabled || options.applyTo !== target) {
+    if (!options.enabled || (options.applyTo !== target && options.applyTo !== 'all')) {
         return cities;
     }
 
