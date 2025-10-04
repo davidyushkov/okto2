@@ -1,13 +1,13 @@
 .sidebar {
     display: flex;
     flex-direction: column;
-    min-height: calc(100dvh - 32px);
-    max-height: calc(100dvh - 16px);
+    min-height: calc(100dvh - 40px);
+    max-height: calc(100dvh - 32px);
     min-width: 300px;
     align-items: center;
     padding-top: 16px;
     overflow: auto;
     scrollbar-width: thin;
     scrollbar-color: var(--gray-dark) transparent;
-
+    padding-bottom: 10px;
 }

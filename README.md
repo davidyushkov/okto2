@@ -1,5 +1,11 @@
-Countries data: https://countriesnow.space/api/v0.1/countries
-Cities data: https://countriesnow.space/api/v0.1/countries/population/cities
+## Assignment #2
 
-It's not the best, but API Ninjas data doesn't fit here, as to get all countries need to pay 40$
-and user still get only one population data of one city for one request.
+---
+
+Cities data took from https://countriesnow.space/api/v0.1/countries/population/cities
+
+Install:
+```js
+npm install
+npm run dev
+```

@@ -34,6 +34,7 @@ export const useDropdown = (children: DropdownProps['children'], hide: () => voi
     const [filteredChildren, setFilteredChildren] = useState<ReactNode[]>(Children.toArray(children).slice(0, LIMIT_ITEMS));
     const [filterValue, setFilterValue] = useState('');
     const dropdownRef = useRef<HTMLDivElement | null>(null);
+
     useEffect(() => debounceFilter(filterValue), [children]);
     useClickOutside(dropdownRef, hide);
 
